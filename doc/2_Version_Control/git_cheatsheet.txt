@@ -1,0 +1,12 @@
+git commit - similar to a save point, it records a "snapshot" of your files at a certain time
+git branch branchName - creates  a separate branch (branchName) to make changes without affecting the main project
+git checkout branchName - command to move between branches
+git pull - fetches and merges at the same time
+git push - "uploads" your work so others can download it from the remote
+git merge branchName - usually you switch into the branch you want to merge *into*, then merges your changes
+git rebase - moves or combines a sequence of commits to a new base commit
+- useful for:
+-- keeping a clean project history
+-- combine multiple commits into one
+-- edit or reorder commits
+git fetch - downloads commits to the local repository from the remote repository, and updates where our remote branches point
